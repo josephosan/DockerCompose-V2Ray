@@ -1,7 +1,7 @@
 #!/bin/bash
 
-your_domain="your_domain"
-your_email_address="your_email_address"
+your_domain="fr.josephosan.ir"
+your_email_address="josephosan1381@gmail.com"
 
 sed -i "s/your_domain/$your_domain/" data/nginx/conf.d/v2ray.conf
 sed -i "s/your_domain/$your_domain/" init-letsencrypt.sh
